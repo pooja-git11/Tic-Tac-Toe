@@ -1,0 +1,75 @@
+.container{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+h1{
+
+    padding-left: 800px;
+    color: white;
+
+}
+.turn1{
+        /*      top  right  bottom  left */
+     margin: 0    0      0       0;
+
+    padding-left: 350px; 
+ 
+    font: 2em sans-serif;
+    color: cyan;
+    display: inline;
+}
+
+ .turn3{
+    /*      top  right  bottom  left */
+    margin: 0    0      0       0;
+
+
+    padding-left: 450px; 
+    font: 2em sans-serif;
+    color: cyan;
+    display: inline; 
+}
+
+.turn2{
+    /*      top  right  bottom  left */
+    margin: 50    10      50       10;
+
+    font: 2em sans-serif;
+    color: cyan;
+    display: inline; 
+}
+
+.board{
+    
+    border: 3px solid black;
+    width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+.line{
+    width: 0%;
+}
+
+.cell{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font: 5em sans-serif;
+}
+
+.col{
+   
+    empty-cells: show;
+    border: 0px solid white;
+    height: 150px;
+    width: 150px;
+}
+
+
+input{
+    font: 2em sans-serif;
+    font-weight: bold;
+    background-color: black;
+}

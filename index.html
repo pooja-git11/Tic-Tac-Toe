@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+
+    <link rel = "stylesheet" href = "css/style.css">
+    <script src = "js/script.js"></script>
+</head>
+<body>
+    <div class = "container">
+        <h1>Tic-Tac-Toe</h1>
+        <hr>
+
+        <p class = "turn1">Player1(X) </p> 
+        <p class = "turn1">Draw </p> 
+        <p class = "turn1">Player2(O) </p>  
+
+        <hr class= "line">
+
+        <p id = "player1" class = "turn3"></p>
+        <p id = "draw" class = "turn3"></p>
+        <p id = "player2" class = "turn3"></p>
+
+
+        <hr class = "line">
+        <p class = "turn2">Player</p>
+        <p id = "playerturn" class = "turn2">x</p> 
+        <p class = "turn2">Turn</p>
+        <hr class = "line">
+
+        <div class = "board">
+            <table>
+                <div class = "row">
+                    <tr id = "frow">
+                        <td class = "col">
+                            <input type = "text" class = "cell" id = "00"  maxlength = "1" onclick= "fill(this)"  >
+                        </td>
+                        <td  class = "col">
+                            <input type = "text" id = "01" class = "cell" maxlength = "1" onclick= "fill(this)" >
+                        </td>
+                        <td  class = "col">
+                            <input type = "text" id = "02" class = "cell" maxlength = "1" onclick= "fill(this)">
+                        </td>
+                    </tr>
+                </div>
+                <div class = "row">
+                    <tr id = "srow">
+                        <td  class = "col">
+                            <input type = "text" id = "10" class = "cell" maxlength = "1" onclick= "fill(this)" >
+                        </td>
+                        <td  class = "col">
+                            <input type = "text" id = "11" class = "cell" maxlength = "1" onclick= "fill(this)">
+                        </td>
+                        <td  class = "col">
+                            <input type = "text" id = "12" class = "cell" maxlength = "1" onclick= "fill(this)" >
+                        </td>
+                    </tr>
+                </div>
+                <div class = "row">
+                    <tr id = "trow">
+                        <td  class = "col">
+                            <input type = "text" id = "20" class = "cell" maxlength = "1" onclick= "fill(this)" >
+                        </td>
+                        <td  class = "col">
+                            <input type = "text" id = "21" class = "cell" maxlength = "1" onclick= "fill(this)" >
+                        </td>
+                        <td class = "col">
+                            <input type = "text"  id = "22" class = "cell" maxlength = "1" onclick= "fill(this)" >
+                        </td>
+                    </tr>
+                </div>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
